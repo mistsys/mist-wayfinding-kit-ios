@@ -1,0 +1,6 @@
+framework module Pods_JibeMapNavigation {
+  umbrella header "Pods-JibeMapNavigation-umbrella.h"
+
+  export *
+  module * { export * }
+}

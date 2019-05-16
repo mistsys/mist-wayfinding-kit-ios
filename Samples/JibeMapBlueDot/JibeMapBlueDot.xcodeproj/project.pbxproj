@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		934E9454226D8DB300954F4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E9453226D8DB300954F4F /* AppDelegate.swift */; };
+		934E9456226D8DB300954F4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E9455226D8DB300954F4F /* ViewController.swift */; };
+		934E9459226D8DB300954F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934E9457226D8DB300954F4F /* Main.storyboard */; };
+		934E945B226D8DB500954F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934E945A226D8DB500954F4F /* Assets.xcassets */; };
+		934E945E226D8DB500954F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934E945C226D8DB500954F4F /* LaunchScreen.storyboard */; };
+		934E9469226D8DB600954F4F /* JibeMapBlueDotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E9468226D8DB600954F4F /* JibeMapBlueDotTests.swift */; };
+		934E9474226D8DB600954F4F /* JibeMapBlueDotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E9473226D8DB600954F4F /* JibeMapBlueDotUITests.swift */; };
+		934E9482226D907F00954F4F /* MSTWayfindingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934E9481226D907F00954F4F /* MSTWayfindingKit.framework */; };
+		934E9484226D90F100954F4F /* MistSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934E9483226D90F100954F4F /* MistSDK.framework */; };
+		934E9485226D912100954F4F /* MistSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934E9483226D90F100954F4F /* MistSDK.framework */; };
+		934E9486226D912100954F4F /* MistSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 934E9483226D90F100954F4F /* MistSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		934E9487226D912100954F4F /* MSTWayfindingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934E9481226D907F00954F4F /* MSTWayfindingKit.framework */; };
+		934E9488226D912100954F4F /* MSTWayfindingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 934E9481226D907F00954F4F /* MSTWayfindingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B3B041278437B7527529F5CE /* Pods_JibeMapBlueDotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7A7E2777F4BC3FD04ADC53 /* Pods_JibeMapBlueDotTests.framework */; };
+		BB3092A052CFB103B37BF33F /* Pods_JibeMapBlueDotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D7E557CB26E0FAE93E6F5 /* Pods_JibeMapBlueDotUITests.framework */; };
+		F737E2A58D081256FCC1C65C /* Pods_JibeMapBlueDot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1473D96EFAB4DF02B67494C /* Pods_JibeMapBlueDot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		934E9465226D8DB600954F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 934E9448226D8DB300954F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934E944F226D8DB300954F4F;
+			remoteInfo = JibeMapBlueDot;
+		};
+		934E9470226D8DB600954F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 934E9448226D8DB300954F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934E944F226D8DB300954F4F;
+			remoteInfo = JibeMapBlueDot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		934E9489226D912100954F4F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				934E9488226D912100954F4F /* MSTWayfindingKit.framework in Embed Frameworks */,
+				934E9486226D912100954F4F /* MistSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A2A24C838568B5D95124A5E /* Pods-JibeMapBlueDotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JibeMapBlueDotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JibeMapBlueDotTests/Pods-JibeMapBlueDotTests.release.xcconfig"; sourceTree = "<group>"; };
+		127D7E557CB26E0FAE93E6F5 /* Pods_JibeMapBlueDotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JibeMapBlueDotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DA5AEF6A33869DEF09E48D /* Pods-JibeMapBlueDotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JibeMapBlueDotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JibeMapBlueDotUITests/Pods-JibeMapBlueDotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36F4A9DDE35774278B5923DC /* Pods-JibeMapBlueDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JibeMapBlueDot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JibeMapBlueDot/Pods-JibeMapBlueDot.debug.xcconfig"; sourceTree = "<group>"; };
+		45B8C3570954DC1CA7081E5E /* Pods-JibeMapBlueDot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JibeMapBlueDot.release.xcconfig"; path = "Pods/Target Support Files/Pods-JibeMapBlueDot/Pods-JibeMapBlueDot.release.xcconfig"; sourceTree = "<group>"; };
+		8C627C43D9BA46A8F7A356FA /* Pods-JibeMapBlueDotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JibeMapBlueDotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JibeMapBlueDotUITests/Pods-JibeMapBlueDotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		934E9450226D8DB300954F4F /* JibeMapBlueDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JibeMapBlueDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E9453226D8DB300954F4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		934E9455226D8DB300954F4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		934E9458226D8DB300954F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		934E945A226D8DB500954F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		934E945D226D8DB500954F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		934E945F226D8DB500954F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934E9464226D8DB600954F4F /* JibeMapBlueDotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JibeMapBlueDotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E9468226D8DB600954F4F /* JibeMapBlueDotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JibeMapBlueDotTests.swift; sourceTree = "<group>"; };
+		934E946A226D8DB600954F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934E946F226D8DB600954F4F /* JibeMapBlueDotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JibeMapBlueDotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E9473226D8DB600954F4F /* JibeMapBlueDotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JibeMapBlueDotUITests.swift; sourceTree = "<group>"; };
+		934E9475226D8DB600954F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934E9481226D907F00954F4F /* MSTWayfindingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MSTWayfindingKit.framework; sourceTree = "<group>"; };
+		934E9483226D90F100954F4F /* MistSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MistSDK.framework; sourceTree = "<group>"; };
+		B1473D96EFAB4DF02B67494C /* Pods_JibeMapBlueDot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JibeMapBlueDot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44E3CE22BE9159C5CD2296E /* Pods-JibeMapBlueDotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JibeMapBlueDotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JibeMapBlueDotTests/Pods-JibeMapBlueDotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC7A7E2777F4BC3FD04ADC53 /* Pods_JibeMapBlueDotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JibeMapBlueDotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		934E944D226D8DB300954F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E9485226D912100954F4F /* MistSDK.framework in Frameworks */,
+				934E9484226D90F100954F4F /* MistSDK.framework in Frameworks */,
+				934E9487226D912100954F4F /* MSTWayfindingKit.framework in Frameworks */,
+				934E9482226D907F00954F4F /* MSTWayfindingKit.framework in Frameworks */,
+				F737E2A58D081256FCC1C65C /* Pods_JibeMapBlueDot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E9461226D8DB600954F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B041278437B7527529F5CE /* Pods_JibeMapBlueDotTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E946C226D8DB600954F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3092A052CFB103B37BF33F /* Pods_JibeMapBlueDotUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14DE283DB8F86BB5003D7980 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36F4A9DDE35774278B5923DC /* Pods-JibeMapBlueDot.debug.xcconfig */,
+				45B8C3570954DC1CA7081E5E /* Pods-JibeMapBlueDot.release.xcconfig */,
+				B44E3CE22BE9159C5CD2296E /* Pods-JibeMapBlueDotTests.debug.xcconfig */,
+				0A2A24C838568B5D95124A5E /* Pods-JibeMapBlueDotTests.release.xcconfig */,
+				13DA5AEF6A33869DEF09E48D /* Pods-JibeMapBlueDotUITests.debug.xcconfig */,
+				8C627C43D9BA46A8F7A356FA /* Pods-JibeMapBlueDotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		934E9447226D8DB300954F4F = {
+			isa = PBXGroup;
+			children = (
+				934E9452226D8DB300954F4F /* JibeMapBlueDot */,
+				934E9467226D8DB600954F4F /* JibeMapBlueDotTests */,
+				934E9472226D8DB600954F4F /* JibeMapBlueDotUITests */,
+				934E9451226D8DB300954F4F /* Products */,
+				14DE283DB8F86BB5003D7980 /* Pods */,
+				F4B92EF47DABCA16879E94F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		934E9451226D8DB300954F4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934E9450226D8DB300954F4F /* JibeMapBlueDot.app */,
+				934E9464226D8DB600954F4F /* JibeMapBlueDotTests.xctest */,
+				934E946F226D8DB600954F4F /* JibeMapBlueDotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		934E9452226D8DB300954F4F /* JibeMapBlueDot */ = {
+			isa = PBXGroup;
+			children = (
+				934E9483226D90F100954F4F /* MistSDK.framework */,
+				934E9481226D907F00954F4F /* MSTWayfindingKit.framework */,
+				934E9453226D8DB300954F4F /* AppDelegate.swift */,
+				934E9455226D8DB300954F4F /* ViewController.swift */,
+				934E9457226D8DB300954F4F /* Main.storyboard */,
+				934E945A226D8DB500954F4F /* Assets.xcassets */,
+				934E945C226D8DB500954F4F /* LaunchScreen.storyboard */,
+				934E945F226D8DB500954F4F /* Info.plist */,
+			);
+			path = JibeMapBlueDot;
+			sourceTree = "<group>";
+		};
+		934E9467226D8DB600954F4F /* JibeMapBlueDotTests */ = {
+			isa = PBXGroup;
+			children = (
+				934E9468226D8DB600954F4F /* JibeMapBlueDotTests.swift */,
+				934E946A226D8DB600954F4F /* Info.plist */,
+			);
+			path = JibeMapBlueDotTests;
+			sourceTree = "<group>";
+		};
+		934E9472226D8DB600954F4F /* JibeMapBlueDotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				934E9473226D8DB600954F4F /* JibeMapBlueDotUITests.swift */,
+				934E9475226D8DB600954F4F /* Info.plist */,
+			);
+			path = JibeMapBlueDotUITests;
+			sourceTree = "<group>";
+		};
+		F4B92EF47DABCA16879E94F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1473D96EFAB4DF02B67494C /* Pods_JibeMapBlueDot.framework */,
+				DC7A7E2777F4BC3FD04ADC53 /* Pods_JibeMapBlueDotTests.framework */,
+				127D7E557CB26E0FAE93E6F5 /* Pods_JibeMapBlueDotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		934E944F226D8DB300954F4F /* JibeMapBlueDot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934E9478226D8DB600954F4F /* Build configuration list for PBXNativeTarget "JibeMapBlueDot" */;
+			buildPhases = (
+				B0AA7B897DF7D9C9D4DBF3F7 /* [CP] Check Pods Manifest.lock */,
+				934E944C226D8DB300954F4F /* Sources */,
+				934E944D226D8DB300954F4F /* Frameworks */,
+				934E944E226D8DB300954F4F /* Resources */,
+				934E9489226D912100954F4F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JibeMapBlueDot;
+			productName = JibeMapBlueDot;
+			productReference = 934E9450226D8DB300954F4F /* JibeMapBlueDot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		934E9463226D8DB600954F4F /* JibeMapBlueDotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934E947B226D8DB600954F4F /* Build configuration list for PBXNativeTarget "JibeMapBlueDotTests" */;
+			buildPhases = (
+				BA876F47673012291491E213 /* [CP] Check Pods Manifest.lock */,
+				934E9460226D8DB600954F4F /* Sources */,
+				934E9461226D8DB600954F4F /* Frameworks */,
+				934E9462226D8DB600954F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				934E9466226D8DB600954F4F /* PBXTargetDependency */,
+			);
+			name = JibeMapBlueDotTests;
+			productName = JibeMapBlueDotTests;
+			productReference = 934E9464226D8DB600954F4F /* JibeMapBlueDotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		934E946E226D8DB600954F4F /* JibeMapBlueDotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934E947E226D8DB600954F4F /* Build configuration list for PBXNativeTarget "JibeMapBlueDotUITests" */;
+			buildPhases = (
+				EAC96F73CAE21B202FBE86E2 /* [CP] Check Pods Manifest.lock */,
+				934E946B226D8DB600954F4F /* Sources */,
+				934E946C226D8DB600954F4F /* Frameworks */,
+				934E946D226D8DB600954F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				934E9471226D8DB600954F4F /* PBXTargetDependency */,
+			);
+			name = JibeMapBlueDotUITests;
+			productName = JibeMapBlueDotUITests;
+			productReference = 934E946F226D8DB600954F4F /* JibeMapBlueDotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		934E9448226D8DB300954F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Mist;
+				TargetAttributes = {
+					934E944F226D8DB300954F4F = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					934E9463226D8DB600954F4F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 934E944F226D8DB300954F4F;
+					};
+					934E946E226D8DB600954F4F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 934E944F226D8DB300954F4F;
+					};
+				};
+			};
+			buildConfigurationList = 934E944B226D8DB300954F4F /* Build configuration list for PBXProject "JibeMapBlueDot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 934E9447226D8DB300954F4F;
+			productRefGroup = 934E9451226D8DB300954F4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				934E944F226D8DB300954F4F /* JibeMapBlueDot */,
+				934E9463226D8DB600954F4F /* JibeMapBlueDotTests */,
+				934E946E226D8DB600954F4F /* JibeMapBlueDotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		934E944E226D8DB300954F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E945E226D8DB500954F4F /* LaunchScreen.storyboard in Resources */,
+				934E945B226D8DB500954F4F /* Assets.xcassets in Resources */,
+				934E9459226D8DB300954F4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E9462226D8DB600954F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E946D226D8DB600954F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0AA7B897DF7D9C9D4DBF3F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JibeMapBlueDot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA876F47673012291491E213 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JibeMapBlueDotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC96F73CAE21B202FBE86E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JibeMapBlueDotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		934E944C226D8DB300954F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E9456226D8DB300954F4F /* ViewController.swift in Sources */,
+				934E9454226D8DB300954F4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E9460226D8DB600954F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E9469226D8DB600954F4F /* JibeMapBlueDotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E946B226D8DB600954F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E9474226D8DB600954F4F /* JibeMapBlueDotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		934E9466226D8DB600954F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934E944F226D8DB300954F4F /* JibeMapBlueDot */;
+			targetProxy = 934E9465226D8DB600954F4F /* PBXContainerItemProxy */;
+		};
+		934E9471226D8DB600954F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934E944F226D8DB300954F4F /* JibeMapBlueDot */;
+			targetProxy = 934E9470226D8DB600954F4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		934E9457226D8DB300954F4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				934E9458226D8DB300954F4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		934E945C226D8DB500954F4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				934E945D226D8DB500954F4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		934E9476226D8DB600954F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		934E9477226D8DB600954F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		934E9479226D8DB600954F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F4A9DDE35774278B5923DC /* Pods-JibeMapBlueDot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JibeMapBlueDot",
+				);
+				INFOPLIST_FILE = JibeMapBlueDot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.JibeMapBlueDot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		934E947A226D8DB600954F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B8C3570954DC1CA7081E5E /* Pods-JibeMapBlueDot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JibeMapBlueDot",
+				);
+				INFOPLIST_FILE = JibeMapBlueDot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.JibeMapBlueDot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		934E947C226D8DB600954F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44E3CE22BE9159C5CD2296E /* Pods-JibeMapBlueDotTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = JibeMapBlueDotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.JibeMapBlueDotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JibeMapBlueDot.app/JibeMapBlueDot";
+			};
+			name = Debug;
+		};
+		934E947D226D8DB600954F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A2A24C838568B5D95124A5E /* Pods-JibeMapBlueDotTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = JibeMapBlueDotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.JibeMapBlueDotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JibeMapBlueDot.app/JibeMapBlueDot";
+			};
+			name = Release;
+		};
+		934E947F226D8DB600954F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DA5AEF6A33869DEF09E48D /* Pods-JibeMapBlueDotUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = JibeMapBlueDotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.JibeMapBlueDotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JibeMapBlueDot;
+			};
+			name = Debug;
+		};
+		934E9480226D8DB600954F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C627C43D9BA46A8F7A356FA /* Pods-JibeMapBlueDotUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = JibeMapBlueDotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.JibeMapBlueDotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JibeMapBlueDot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		934E944B226D8DB300954F4F /* Build configuration list for PBXProject "JibeMapBlueDot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934E9476226D8DB600954F4F /* Debug */,
+				934E9477226D8DB600954F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934E9478226D8DB600954F4F /* Build configuration list for PBXNativeTarget "JibeMapBlueDot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934E9479226D8DB600954F4F /* Debug */,
+				934E947A226D8DB600954F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934E947B226D8DB600954F4F /* Build configuration list for PBXNativeTarget "JibeMapBlueDotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934E947C226D8DB600954F4F /* Debug */,
+				934E947D226D8DB600954F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934E947E226D8DB600954F4F /* Build configuration list for PBXNativeTarget "JibeMapBlueDotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934E947F226D8DB600954F4F /* Debug */,
+				934E9480226D8DB600954F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 934E9448226D8DB300954F4F /* Project object */;
+}

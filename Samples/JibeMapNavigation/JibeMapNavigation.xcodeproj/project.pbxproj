@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CEDC2B7BC618278A216A651 /* Pods_JibeMapNavigationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C94AB3629D5B6416E1A9498 /* Pods_JibeMapNavigationUITests.framework */; };
+		934E94E2226D98E900954F4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E94E1226D98E900954F4F /* AppDelegate.swift */; };
+		934E94E4226D98E900954F4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E94E3226D98E900954F4F /* ViewController.swift */; };
+		934E94E7226D98E900954F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934E94E5226D98E900954F4F /* Main.storyboard */; };
+		934E94E9226D98EA00954F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934E94E8226D98EA00954F4F /* Assets.xcassets */; };
+		934E94EC226D98EA00954F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934E94EA226D98EA00954F4F /* LaunchScreen.storyboard */; };
+		934E94F7226D98EA00954F4F /* JibeMapNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E94F6226D98EA00954F4F /* JibeMapNavigationTests.swift */; };
+		934E9502226D98EA00954F4F /* JibeMapNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E9501226D98EA00954F4F /* JibeMapNavigationUITests.swift */; };
+		934E9511226D992F00954F4F /* MistSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934E950F226D992F00954F4F /* MistSDK.framework */; };
+		934E9512226D992F00954F4F /* MistSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 934E950F226D992F00954F4F /* MistSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		934E9513226D992F00954F4F /* MSTWayfindingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934E9510226D992F00954F4F /* MSTWayfindingKit.framework */; };
+		934E9514226D992F00954F4F /* MSTWayfindingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 934E9510226D992F00954F4F /* MSTWayfindingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4D846F56CEEBE8ECAA1A4F /* Pods_JibeMapNavigationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E99E08AED1A8F85E9A5A5E8 /* Pods_JibeMapNavigationTests.framework */; };
+		A6834E90CFACBE3E078B7ECF /* Pods_JibeMapNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF77C1DA9F4A99F63AFFB7B2 /* Pods_JibeMapNavigation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		934E94F3226D98EA00954F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 934E94D6226D98E900954F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934E94DD226D98E900954F4F;
+			remoteInfo = JibeMapNavigation;
+		};
+		934E94FE226D98EA00954F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 934E94D6226D98E900954F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934E94DD226D98E900954F4F;
+			remoteInfo = JibeMapNavigation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		934E9515226D992F00954F4F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				934E9514226D992F00954F4F /* MSTWayfindingKit.framework in Embed Frameworks */,
+				934E9512226D992F00954F4F /* MistSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19FEAF6313520B653FAC6F1D /* Pods-JibeMapNavigationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JibeMapNavigationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JibeMapNavigationTests/Pods-JibeMapNavigationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E92645D3E0B7FA06B44C58C /* Pods-JibeMapNavigationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JibeMapNavigationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JibeMapNavigationUITests/Pods-JibeMapNavigationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E99E08AED1A8F85E9A5A5E8 /* Pods_JibeMapNavigationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JibeMapNavigationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C0DBC6CCBDF5946CA806DA /* Pods-JibeMapNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JibeMapNavigation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JibeMapNavigation/Pods-JibeMapNavigation.debug.xcconfig"; sourceTree = "<group>"; };
+		64AAAF900B0FFC9679224068 /* Pods-JibeMapNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JibeMapNavigation.release.xcconfig"; path = "Pods/Target Support Files/Pods-JibeMapNavigation/Pods-JibeMapNavigation.release.xcconfig"; sourceTree = "<group>"; };
+		6831A25C61F77AC624F8AA41 /* Pods-JibeMapNavigationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JibeMapNavigationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JibeMapNavigationUITests/Pods-JibeMapNavigationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C94AB3629D5B6416E1A9498 /* Pods_JibeMapNavigationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JibeMapNavigationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6DE75CFFCBAF1937870763 /* Pods-JibeMapNavigationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JibeMapNavigationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JibeMapNavigationTests/Pods-JibeMapNavigationTests.release.xcconfig"; sourceTree = "<group>"; };
+		934E94DE226D98E900954F4F /* JibeMapNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JibeMapNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E94E1226D98E900954F4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		934E94E3226D98E900954F4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		934E94E6226D98E900954F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		934E94E8226D98EA00954F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		934E94EB226D98EA00954F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		934E94ED226D98EA00954F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934E94F2226D98EA00954F4F /* JibeMapNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JibeMapNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E94F6226D98EA00954F4F /* JibeMapNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JibeMapNavigationTests.swift; sourceTree = "<group>"; };
+		934E94F8226D98EA00954F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934E94FD226D98EA00954F4F /* JibeMapNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JibeMapNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E9501226D98EA00954F4F /* JibeMapNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JibeMapNavigationUITests.swift; sourceTree = "<group>"; };
+		934E9503226D98EA00954F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934E950F226D992F00954F4F /* MistSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MistSDK.framework; path = JibeMapNavigation/MistSDK.framework; sourceTree = "<group>"; };
+		934E9510226D992F00954F4F /* MSTWayfindingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MSTWayfindingKit.framework; path = JibeMapNavigation/MSTWayfindingKit.framework; sourceTree = "<group>"; };
+		DF77C1DA9F4A99F63AFFB7B2 /* Pods_JibeMapNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JibeMapNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		934E94DB226D98E900954F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E9513226D992F00954F4F /* MSTWayfindingKit.framework in Frameworks */,
+				934E9511226D992F00954F4F /* MistSDK.framework in Frameworks */,
+				A6834E90CFACBE3E078B7ECF /* Pods_JibeMapNavigation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E94EF226D98EA00954F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4D846F56CEEBE8ECAA1A4F /* Pods_JibeMapNavigationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E94FA226D98EA00954F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEDC2B7BC618278A216A651 /* Pods_JibeMapNavigationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501A74DF9026365C99713DFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54C0DBC6CCBDF5946CA806DA /* Pods-JibeMapNavigation.debug.xcconfig */,
+				64AAAF900B0FFC9679224068 /* Pods-JibeMapNavigation.release.xcconfig */,
+				19FEAF6313520B653FAC6F1D /* Pods-JibeMapNavigationTests.debug.xcconfig */,
+				8A6DE75CFFCBAF1937870763 /* Pods-JibeMapNavigationTests.release.xcconfig */,
+				3E92645D3E0B7FA06B44C58C /* Pods-JibeMapNavigationUITests.debug.xcconfig */,
+				6831A25C61F77AC624F8AA41 /* Pods-JibeMapNavigationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55E86202BE46A85EE1F6EF1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF77C1DA9F4A99F63AFFB7B2 /* Pods_JibeMapNavigation.framework */,
+				3E99E08AED1A8F85E9A5A5E8 /* Pods_JibeMapNavigationTests.framework */,
+				7C94AB3629D5B6416E1A9498 /* Pods_JibeMapNavigationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		934E94D5226D98E900954F4F = {
+			isa = PBXGroup;
+			children = (
+				934E950F226D992F00954F4F /* MistSDK.framework */,
+				934E9510226D992F00954F4F /* MSTWayfindingKit.framework */,
+				934E94E0226D98E900954F4F /* JibeMapNavigation */,
+				934E94F5226D98EA00954F4F /* JibeMapNavigationTests */,
+				934E9500226D98EA00954F4F /* JibeMapNavigationUITests */,
+				934E94DF226D98E900954F4F /* Products */,
+				501A74DF9026365C99713DFC /* Pods */,
+				55E86202BE46A85EE1F6EF1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		934E94DF226D98E900954F4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934E94DE226D98E900954F4F /* JibeMapNavigation.app */,
+				934E94F2226D98EA00954F4F /* JibeMapNavigationTests.xctest */,
+				934E94FD226D98EA00954F4F /* JibeMapNavigationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		934E94E0226D98E900954F4F /* JibeMapNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				934E94E1226D98E900954F4F /* AppDelegate.swift */,
+				934E94E3226D98E900954F4F /* ViewController.swift */,
+				934E94E5226D98E900954F4F /* Main.storyboard */,
+				934E94E8226D98EA00954F4F /* Assets.xcassets */,
+				934E94EA226D98EA00954F4F /* LaunchScreen.storyboard */,
+				934E94ED226D98EA00954F4F /* Info.plist */,
+			);
+			path = JibeMapNavigation;
+			sourceTree = "<group>";
+		};
+		934E94F5226D98EA00954F4F /* JibeMapNavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				934E94F6226D98EA00954F4F /* JibeMapNavigationTests.swift */,
+				934E94F8226D98EA00954F4F /* Info.plist */,
+			);
+			path = JibeMapNavigationTests;
+			sourceTree = "<group>";
+		};
+		934E9500226D98EA00954F4F /* JibeMapNavigationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				934E9501226D98EA00954F4F /* JibeMapNavigationUITests.swift */,
+				934E9503226D98EA00954F4F /* Info.plist */,
+			);
+			path = JibeMapNavigationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		934E94DD226D98E900954F4F /* JibeMapNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934E9506226D98EA00954F4F /* Build configuration list for PBXNativeTarget "JibeMapNavigation" */;
+			buildPhases = (
+				6D1A1821BC9B3C92CD9DDD8D /* [CP] Check Pods Manifest.lock */,
+				934E94DA226D98E900954F4F /* Sources */,
+				934E94DB226D98E900954F4F /* Frameworks */,
+				934E94DC226D98E900954F4F /* Resources */,
+				934E9515226D992F00954F4F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JibeMapNavigation;
+			productName = JibeMapNavigation;
+			productReference = 934E94DE226D98E900954F4F /* JibeMapNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		934E94F1226D98EA00954F4F /* JibeMapNavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934E9509226D98EA00954F4F /* Build configuration list for PBXNativeTarget "JibeMapNavigationTests" */;
+			buildPhases = (
+				31DEFD09C42318F616428661 /* [CP] Check Pods Manifest.lock */,
+				934E94EE226D98EA00954F4F /* Sources */,
+				934E94EF226D98EA00954F4F /* Frameworks */,
+				934E94F0226D98EA00954F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				934E94F4226D98EA00954F4F /* PBXTargetDependency */,
+			);
+			name = JibeMapNavigationTests;
+			productName = JibeMapNavigationTests;
+			productReference = 934E94F2226D98EA00954F4F /* JibeMapNavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		934E94FC226D98EA00954F4F /* JibeMapNavigationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934E950C226D98EA00954F4F /* Build configuration list for PBXNativeTarget "JibeMapNavigationUITests" */;
+			buildPhases = (
+				07D4735B51767DD6A0CF7E15 /* [CP] Check Pods Manifest.lock */,
+				934E94F9226D98EA00954F4F /* Sources */,
+				934E94FA226D98EA00954F4F /* Frameworks */,
+				934E94FB226D98EA00954F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				934E94FF226D98EA00954F4F /* PBXTargetDependency */,
+			);
+			name = JibeMapNavigationUITests;
+			productName = JibeMapNavigationUITests;
+			productReference = 934E94FD226D98EA00954F4F /* JibeMapNavigationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		934E94D6226D98E900954F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Mist;
+				TargetAttributes = {
+					934E94DD226D98E900954F4F = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					934E94F1226D98EA00954F4F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 934E94DD226D98E900954F4F;
+					};
+					934E94FC226D98EA00954F4F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 934E94DD226D98E900954F4F;
+					};
+				};
+			};
+			buildConfigurationList = 934E94D9226D98E900954F4F /* Build configuration list for PBXProject "JibeMapNavigation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 934E94D5226D98E900954F4F;
+			productRefGroup = 934E94DF226D98E900954F4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				934E94DD226D98E900954F4F /* JibeMapNavigation */,
+				934E94F1226D98EA00954F4F /* JibeMapNavigationTests */,
+				934E94FC226D98EA00954F4F /* JibeMapNavigationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		934E94DC226D98E900954F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E94EC226D98EA00954F4F /* LaunchScreen.storyboard in Resources */,
+				934E94E9226D98EA00954F4F /* Assets.xcassets in Resources */,
+				934E94E7226D98E900954F4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E94F0226D98EA00954F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E94FB226D98EA00954F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D4735B51767DD6A0CF7E15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JibeMapNavigationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31DEFD09C42318F616428661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JibeMapNavigationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D1A1821BC9B3C92CD9DDD8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JibeMapNavigation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		934E94DA226D98E900954F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E94E4226D98E900954F4F /* ViewController.swift in Sources */,
+				934E94E2226D98E900954F4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E94EE226D98EA00954F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E94F7226D98EA00954F4F /* JibeMapNavigationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E94F9226D98EA00954F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E9502226D98EA00954F4F /* JibeMapNavigationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		934E94F4226D98EA00954F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934E94DD226D98E900954F4F /* JibeMapNavigation */;
+			targetProxy = 934E94F3226D98EA00954F4F /* PBXContainerItemProxy */;
+		};
+		934E94FF226D98EA00954F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934E94DD226D98E900954F4F /* JibeMapNavigation */;
+			targetProxy = 934E94FE226D98EA00954F4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		934E94E5226D98E900954F4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				934E94E6226D98E900954F4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		934E94EA226D98EA00954F4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				934E94EB226D98EA00954F4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		934E9504226D98EA00954F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		934E9505226D98EA00954F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		934E9507226D98EA00954F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C0DBC6CCBDF5946CA806DA /* Pods-JibeMapNavigation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JibeMapNavigation",
+				);
+				INFOPLIST_FILE = JibeMapNavigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.JibeMapNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		934E9508226D98EA00954F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AAAF900B0FFC9679224068 /* Pods-JibeMapNavigation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JibeMapNavigation",
+				);
+				INFOPLIST_FILE = JibeMapNavigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.JibeMapNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		934E950A226D98EA00954F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FEAF6313520B653FAC6F1D /* Pods-JibeMapNavigationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = JibeMapNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.JibeMapNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JibeMapNavigation.app/JibeMapNavigation";
+			};
+			name = Debug;
+		};
+		934E950B226D98EA00954F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6DE75CFFCBAF1937870763 /* Pods-JibeMapNavigationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = JibeMapNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.JibeMapNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JibeMapNavigation.app/JibeMapNavigation";
+			};
+			name = Release;
+		};
+		934E950D226D98EA00954F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E92645D3E0B7FA06B44C58C /* Pods-JibeMapNavigationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = JibeMapNavigationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.JibeMapNavigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JibeMapNavigation;
+			};
+			name = Debug;
+		};
+		934E950E226D98EA00954F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6831A25C61F77AC624F8AA41 /* Pods-JibeMapNavigationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = JibeMapNavigationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.JibeMapNavigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JibeMapNavigation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		934E94D9226D98E900954F4F /* Build configuration list for PBXProject "JibeMapNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934E9504226D98EA00954F4F /* Debug */,
+				934E9505226D98EA00954F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934E9506226D98EA00954F4F /* Build configuration list for PBXNativeTarget "JibeMapNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934E9507226D98EA00954F4F /* Debug */,
+				934E9508226D98EA00954F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934E9509226D98EA00954F4F /* Build configuration list for PBXNativeTarget "JibeMapNavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934E950A226D98EA00954F4F /* Debug */,
+				934E950B226D98EA00954F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934E950C226D98EA00954F4F /* Build configuration list for PBXNativeTarget "JibeMapNavigationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934E950D226D98EA00954F4F /* Debug */,
+				934E950E226D98EA00954F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 934E94D6226D98E900954F4F /* Project object */;
+}

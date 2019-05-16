@@ -1,0 +1,6 @@
+framework module Pods_MistMapBlueDotTests {
+  umbrella header "Pods-MistMapBlueDotTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

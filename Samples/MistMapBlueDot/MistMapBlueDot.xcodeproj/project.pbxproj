@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36FC7E6223B989354CEE1970 /* Pods_MistMapBlueDotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AC65C846E489975948191B /* Pods_MistMapBlueDotTests.framework */; };
+		68A78BFB54BD86B2456B22A0 /* Pods_MistMapBlueDot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322FC008BC24B53333EC585A /* Pods_MistMapBlueDot.framework */; };
+		79650395FABC3983F9FE1332 /* Pods_MistMapBlueDotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8970F33CB7870A4E6C662328 /* Pods_MistMapBlueDotUITests.framework */; };
+		934E9498226D966E00954F4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E9497226D966E00954F4F /* AppDelegate.swift */; };
+		934E949A226D966E00954F4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E9499226D966E00954F4F /* ViewController.swift */; };
+		934E949D226D966E00954F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934E949B226D966E00954F4F /* Main.storyboard */; };
+		934E949F226D966F00954F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934E949E226D966F00954F4F /* Assets.xcassets */; };
+		934E94A2226D966F00954F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934E94A0226D966F00954F4F /* LaunchScreen.storyboard */; };
+		934E94AD226D966F00954F4F /* MistMapBlueDotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E94AC226D966F00954F4F /* MistMapBlueDotTests.swift */; };
+		934E94B8226D966F00954F4F /* MistMapBlueDotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E94B7226D966F00954F4F /* MistMapBlueDotUITests.swift */; };
+		934E94D0226D973900954F4F /* MSTWayfindingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934E94CE226D973900954F4F /* MSTWayfindingKit.framework */; };
+		934E94D1226D973900954F4F /* MSTWayfindingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 934E94CE226D973900954F4F /* MSTWayfindingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		934E94D2226D973900954F4F /* MistSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934E94CF226D973900954F4F /* MistSDK.framework */; };
+		934E94D3226D973900954F4F /* MistSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 934E94CF226D973900954F4F /* MistSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		934E94A9226D966F00954F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 934E948C226D966E00954F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934E9493226D966E00954F4F;
+			remoteInfo = MistMapBlueDot;
+		};
+		934E94B4226D966F00954F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 934E948C226D966E00954F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934E9493226D966E00954F4F;
+			remoteInfo = MistMapBlueDot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		934E94D4226D973900954F4F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				934E94D3226D973900954F4F /* MistSDK.framework in Embed Frameworks */,
+				934E94D1226D973900954F4F /* MSTWayfindingKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		322FC008BC24B53333EC585A /* Pods_MistMapBlueDot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MistMapBlueDot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		403A9680749E6094F30E6E67 /* Pods-MistMapBlueDotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistMapBlueDotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MistMapBlueDotUITests/Pods-MistMapBlueDotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		441B21014CCF5A248A0A6F98 /* Pods-MistMapBlueDot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistMapBlueDot.release.xcconfig"; path = "Pods/Target Support Files/Pods-MistMapBlueDot/Pods-MistMapBlueDot.release.xcconfig"; sourceTree = "<group>"; };
+		4D887F4700F40F6CB7925907 /* Pods-MistMapBlueDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistMapBlueDot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MistMapBlueDot/Pods-MistMapBlueDot.debug.xcconfig"; sourceTree = "<group>"; };
+		7D89C07D9D715B836A6BC734 /* Pods-MistMapBlueDotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistMapBlueDotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MistMapBlueDotUITests/Pods-MistMapBlueDotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8970F33CB7870A4E6C662328 /* Pods_MistMapBlueDotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MistMapBlueDotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E9494226D966E00954F4F /* MistMapBlueDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MistMapBlueDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E9497226D966E00954F4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		934E9499226D966E00954F4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		934E949C226D966E00954F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		934E949E226D966F00954F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		934E94A1226D966F00954F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		934E94A3226D966F00954F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934E94A8226D966F00954F4F /* MistMapBlueDotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistMapBlueDotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E94AC226D966F00954F4F /* MistMapBlueDotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistMapBlueDotTests.swift; sourceTree = "<group>"; };
+		934E94AE226D966F00954F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934E94B3226D966F00954F4F /* MistMapBlueDotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistMapBlueDotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E94B7226D966F00954F4F /* MistMapBlueDotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistMapBlueDotUITests.swift; sourceTree = "<group>"; };
+		934E94B9226D966F00954F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934E94CE226D973900954F4F /* MSTWayfindingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MSTWayfindingKit.framework; path = MistMapBlueDot/MSTWayfindingKit.framework; sourceTree = "<group>"; };
+		934E94CF226D973900954F4F /* MistSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MistSDK.framework; path = MistMapBlueDot/MistSDK.framework; sourceTree = "<group>"; };
+		A6AC65C846E489975948191B /* Pods_MistMapBlueDotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MistMapBlueDotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B872FCC0AB246937F2B6D563 /* Pods-MistMapBlueDotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistMapBlueDotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MistMapBlueDotTests/Pods-MistMapBlueDotTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF4DB860FF949084A73F7AFA /* Pods-MistMapBlueDotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistMapBlueDotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MistMapBlueDotTests/Pods-MistMapBlueDotTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		934E9491226D966E00954F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E94D2226D973900954F4F /* MistSDK.framework in Frameworks */,
+				934E94D0226D973900954F4F /* MSTWayfindingKit.framework in Frameworks */,
+				68A78BFB54BD86B2456B22A0 /* Pods_MistMapBlueDot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E94A5226D966F00954F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FC7E6223B989354CEE1970 /* Pods_MistMapBlueDotTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E94B0226D966F00954F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79650395FABC3983F9FE1332 /* Pods_MistMapBlueDotUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27670897BF6B5EFCFBE99D30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				322FC008BC24B53333EC585A /* Pods_MistMapBlueDot.framework */,
+				A6AC65C846E489975948191B /* Pods_MistMapBlueDotTests.framework */,
+				8970F33CB7870A4E6C662328 /* Pods_MistMapBlueDotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AAE0C80E3526793A22276A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D887F4700F40F6CB7925907 /* Pods-MistMapBlueDot.debug.xcconfig */,
+				441B21014CCF5A248A0A6F98 /* Pods-MistMapBlueDot.release.xcconfig */,
+				FF4DB860FF949084A73F7AFA /* Pods-MistMapBlueDotTests.debug.xcconfig */,
+				B872FCC0AB246937F2B6D563 /* Pods-MistMapBlueDotTests.release.xcconfig */,
+				7D89C07D9D715B836A6BC734 /* Pods-MistMapBlueDotUITests.debug.xcconfig */,
+				403A9680749E6094F30E6E67 /* Pods-MistMapBlueDotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		934E948B226D966E00954F4F = {
+			isa = PBXGroup;
+			children = (
+				934E94CF226D973900954F4F /* MistSDK.framework */,
+				934E94CE226D973900954F4F /* MSTWayfindingKit.framework */,
+				934E9496226D966E00954F4F /* MistMapBlueDot */,
+				934E94AB226D966F00954F4F /* MistMapBlueDotTests */,
+				934E94B6226D966F00954F4F /* MistMapBlueDotUITests */,
+				934E9495226D966E00954F4F /* Products */,
+				4AAE0C80E3526793A22276A7 /* Pods */,
+				27670897BF6B5EFCFBE99D30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		934E9495226D966E00954F4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934E9494226D966E00954F4F /* MistMapBlueDot.app */,
+				934E94A8226D966F00954F4F /* MistMapBlueDotTests.xctest */,
+				934E94B3226D966F00954F4F /* MistMapBlueDotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		934E9496226D966E00954F4F /* MistMapBlueDot */ = {
+			isa = PBXGroup;
+			children = (
+				934E9497226D966E00954F4F /* AppDelegate.swift */,
+				934E9499226D966E00954F4F /* ViewController.swift */,
+				934E949B226D966E00954F4F /* Main.storyboard */,
+				934E949E226D966F00954F4F /* Assets.xcassets */,
+				934E94A0226D966F00954F4F /* LaunchScreen.storyboard */,
+				934E94A3226D966F00954F4F /* Info.plist */,
+			);
+			path = MistMapBlueDot;
+			sourceTree = "<group>";
+		};
+		934E94AB226D966F00954F4F /* MistMapBlueDotTests */ = {
+			isa = PBXGroup;
+			children = (
+				934E94AC226D966F00954F4F /* MistMapBlueDotTests.swift */,
+				934E94AE226D966F00954F4F /* Info.plist */,
+			);
+			path = MistMapBlueDotTests;
+			sourceTree = "<group>";
+		};
+		934E94B6226D966F00954F4F /* MistMapBlueDotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				934E94B7226D966F00954F4F /* MistMapBlueDotUITests.swift */,
+				934E94B9226D966F00954F4F /* Info.plist */,
+			);
+			path = MistMapBlueDotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		934E9493226D966E00954F4F /* MistMapBlueDot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934E94BC226D966F00954F4F /* Build configuration list for PBXNativeTarget "MistMapBlueDot" */;
+			buildPhases = (
+				0063793E280AEBB807228A4B /* [CP] Check Pods Manifest.lock */,
+				934E9490226D966E00954F4F /* Sources */,
+				934E9491226D966E00954F4F /* Frameworks */,
+				934E9492226D966E00954F4F /* Resources */,
+				934E94D4226D973900954F4F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MistMapBlueDot;
+			productName = MistMapBlueDot;
+			productReference = 934E9494226D966E00954F4F /* MistMapBlueDot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		934E94A7226D966F00954F4F /* MistMapBlueDotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934E94BF226D966F00954F4F /* Build configuration list for PBXNativeTarget "MistMapBlueDotTests" */;
+			buildPhases = (
+				1A98829543047D9616ED2437 /* [CP] Check Pods Manifest.lock */,
+				934E94A4226D966F00954F4F /* Sources */,
+				934E94A5226D966F00954F4F /* Frameworks */,
+				934E94A6226D966F00954F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				934E94AA226D966F00954F4F /* PBXTargetDependency */,
+			);
+			name = MistMapBlueDotTests;
+			productName = MistMapBlueDotTests;
+			productReference = 934E94A8226D966F00954F4F /* MistMapBlueDotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		934E94B2226D966F00954F4F /* MistMapBlueDotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934E94C2226D966F00954F4F /* Build configuration list for PBXNativeTarget "MistMapBlueDotUITests" */;
+			buildPhases = (
+				6051D9F5718F35A1FC11C67F /* [CP] Check Pods Manifest.lock */,
+				934E94AF226D966F00954F4F /* Sources */,
+				934E94B0226D966F00954F4F /* Frameworks */,
+				934E94B1226D966F00954F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				934E94B5226D966F00954F4F /* PBXTargetDependency */,
+			);
+			name = MistMapBlueDotUITests;
+			productName = MistMapBlueDotUITests;
+			productReference = 934E94B3226D966F00954F4F /* MistMapBlueDotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		934E948C226D966E00954F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Mist;
+				TargetAttributes = {
+					934E9493226D966E00954F4F = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					934E94A7226D966F00954F4F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 934E9493226D966E00954F4F;
+					};
+					934E94B2226D966F00954F4F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 934E9493226D966E00954F4F;
+					};
+				};
+			};
+			buildConfigurationList = 934E948F226D966E00954F4F /* Build configuration list for PBXProject "MistMapBlueDot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 934E948B226D966E00954F4F;
+			productRefGroup = 934E9495226D966E00954F4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				934E9493226D966E00954F4F /* MistMapBlueDot */,
+				934E94A7226D966F00954F4F /* MistMapBlueDotTests */,
+				934E94B2226D966F00954F4F /* MistMapBlueDotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		934E9492226D966E00954F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E94A2226D966F00954F4F /* LaunchScreen.storyboard in Resources */,
+				934E949F226D966F00954F4F /* Assets.xcassets in Resources */,
+				934E949D226D966E00954F4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E94A6226D966F00954F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E94B1226D966F00954F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0063793E280AEBB807228A4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MistMapBlueDot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A98829543047D9616ED2437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MistMapBlueDotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6051D9F5718F35A1FC11C67F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MistMapBlueDotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		934E9490226D966E00954F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E949A226D966E00954F4F /* ViewController.swift in Sources */,
+				934E9498226D966E00954F4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E94A4226D966F00954F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E94AD226D966F00954F4F /* MistMapBlueDotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E94AF226D966F00954F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E94B8226D966F00954F4F /* MistMapBlueDotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		934E94AA226D966F00954F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934E9493226D966E00954F4F /* MistMapBlueDot */;
+			targetProxy = 934E94A9226D966F00954F4F /* PBXContainerItemProxy */;
+		};
+		934E94B5226D966F00954F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934E9493226D966E00954F4F /* MistMapBlueDot */;
+			targetProxy = 934E94B4226D966F00954F4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		934E949B226D966E00954F4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				934E949C226D966E00954F4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		934E94A0226D966F00954F4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				934E94A1226D966F00954F4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		934E94BA226D966F00954F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		934E94BB226D966F00954F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		934E94BD226D966F00954F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D887F4700F40F6CB7925907 /* Pods-MistMapBlueDot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MistMapBlueDot",
+				);
+				INFOPLIST_FILE = MistMapBlueDot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.MistMapBlueDot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		934E94BE226D966F00954F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441B21014CCF5A248A0A6F98 /* Pods-MistMapBlueDot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MistMapBlueDot",
+				);
+				INFOPLIST_FILE = MistMapBlueDot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.MistMapBlueDot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		934E94C0226D966F00954F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4DB860FF949084A73F7AFA /* Pods-MistMapBlueDotTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = MistMapBlueDotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.MistMapBlueDotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MistMapBlueDot.app/MistMapBlueDot";
+			};
+			name = Debug;
+		};
+		934E94C1226D966F00954F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B872FCC0AB246937F2B6D563 /* Pods-MistMapBlueDotTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = MistMapBlueDotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.MistMapBlueDotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MistMapBlueDot.app/MistMapBlueDot";
+			};
+			name = Release;
+		};
+		934E94C3226D966F00954F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D89C07D9D715B836A6BC734 /* Pods-MistMapBlueDotUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = MistMapBlueDotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.MistMapBlueDotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MistMapBlueDot;
+			};
+			name = Debug;
+		};
+		934E94C4226D966F00954F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403A9680749E6094F30E6E67 /* Pods-MistMapBlueDotUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6W43QBW7N;
+				INFOPLIST_FILE = MistMapBlueDotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mist.samples.MistMapBlueDotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MistMapBlueDot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		934E948F226D966E00954F4F /* Build configuration list for PBXProject "MistMapBlueDot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934E94BA226D966F00954F4F /* Debug */,
+				934E94BB226D966F00954F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934E94BC226D966F00954F4F /* Build configuration list for PBXNativeTarget "MistMapBlueDot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934E94BD226D966F00954F4F /* Debug */,
+				934E94BE226D966F00954F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934E94BF226D966F00954F4F /* Build configuration list for PBXNativeTarget "MistMapBlueDotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934E94C0226D966F00954F4F /* Debug */,
+				934E94C1226D966F00954F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934E94C2226D966F00954F4F /* Build configuration list for PBXNativeTarget "MistMapBlueDotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934E94C3226D966F00954F4F /* Debug */,
+				934E94C4226D966F00954F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 934E948C226D966E00954F4F /* Project object */;
+}

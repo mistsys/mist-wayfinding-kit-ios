@@ -1,0 +1,6 @@
+framework module MSTWayfindingKit {
+  umbrella header "MSTWayfindingKit.h"
+
+  export *
+  module * { export * }
+}

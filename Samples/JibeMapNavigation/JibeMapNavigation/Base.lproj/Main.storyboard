@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ewt-OT-1Rn">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="GPF-bX-9YC">
+            <objects>
+                <viewController id="ewt-OT-1Rn" customClass="ViewController" customModule="MistMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b2J-Bk-Gla">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UhT-Ht-qad">
+                                <rect key="frame" x="232" y="812" width="162" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="onStop:" destination="ewt-OT-1Rn" eventType="touchUpInside" id="1vG-8F-WRW"/>
+                                </connections>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHh-Pk-eBH">
+                                <rect key="frame" x="20" y="812" width="124" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Navigate"/>
+                                <connections>
+                                    <action selector="onNavigate:" destination="ewt-OT-1Rn" eventType="touchUpInside" id="QzL-h5-g8d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="L7g-aW-QJp" firstAttribute="bottom" secondItem="UhT-Ht-qad" secondAttribute="bottom" constant="20" id="1tU-oc-lpV"/>
+                            <constraint firstItem="L7g-aW-QJp" firstAttribute="trailing" secondItem="UhT-Ht-qad" secondAttribute="trailing" constant="20" id="NIH-PP-mkY"/>
+                            <constraint firstItem="nHh-Pk-eBH" firstAttribute="width" secondItem="b2J-Bk-Gla" secondAttribute="width" multiplier="0.3" id="c93-so-ixb"/>
+                            <constraint firstItem="L7g-aW-QJp" firstAttribute="bottom" secondItem="nHh-Pk-eBH" secondAttribute="bottom" constant="20" id="npq-Cr-hlc"/>
+                            <constraint firstItem="nHh-Pk-eBH" firstAttribute="leading" secondItem="b2J-Bk-Gla" secondAttribute="leading" constant="20" id="vwV-Dt-Bd4"/>
+                            <constraint firstItem="UhT-Ht-qad" firstAttribute="leading" secondItem="nHh-Pk-eBH" secondAttribute="trailing" constant="88" id="ySN-jy-nzi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="L7g-aW-QJp"/>
+                    </view>
+                    <connections>
+                        <outlet property="navigate" destination="nHh-Pk-eBH" id="Za5-ik-IWO"/>
+                        <outlet property="stop" destination="UhT-Ht-qad" id="fap-1X-trJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zde-KF-arn" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="61.607142857142854"/>
+        </scene>
+    </scenes>
+</document>
